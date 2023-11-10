@@ -6,7 +6,7 @@
 SELECT
   COUNT(*) AS null_check_customer_id
 FROM
-  {{ ref('customers') }}
+  {{ ref('customer') }}
 WHERE
   CustomerID IS NULL;
 
@@ -14,7 +14,7 @@ WHERE
 SELECT
   COUNT(*) AS null_check_first_name
 FROM
-  {{ ref('customers') }}
+  {{ ref('customer') }}
 WHERE
   FirstName IS NULL;
 
@@ -22,7 +22,7 @@ WHERE
 SELECT
   COUNT(*) AS null_check_last_name
 FROM
-  {{ ref('customers') }}
+  {{ ref('customer') }}
 WHERE
   LastName IS NULL;
 
