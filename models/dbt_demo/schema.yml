@@ -8,5 +8,4 @@ models:
             description: "The primary key for this table"
             tests:
                 - not_null_demo
-                    column_name: C_CUSTKEY
          
