@@ -1,3 +1,3 @@
 
-  select     *   from {{ ref('demo')}} where c_name not like 'Customer%'
+  select  *   from {{ ref('demo')}} where c_name='12345'
 
