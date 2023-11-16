@@ -8,4 +8,10 @@ models:
             description: "The primary key for this table"
             tests:
                 - not_null_demo
-         
+                - unique_records
+                
+          - name:  C_NAME
+            description: "The primary key for this table"
+            tests:
+                - not_null_demo
+                - unique_records
