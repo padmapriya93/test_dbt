@@ -1,7 +1,7 @@
 version: 2
  
 models:
-    - name: dbt_demo1
+    - name: demo
       description: "A starter dbt model"
       columns:
           - name:  C_CUSTKEY
