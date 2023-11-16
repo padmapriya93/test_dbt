@@ -1,7 +1,7 @@
 version: 2
  
 models:
-    - name: demo
+    - name: demo_new
       description: "A starter dbt model"
       columns:
           - name:  C_CUSTKEY
@@ -16,4 +16,10 @@ models:
             tests:
                 - not_null_demo
                 - unique_records
+                
+          - name:  C_PHONE
+            description: "The primary key for this table"
+            tests:
+                - unique_records                
+                
                
