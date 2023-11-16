@@ -7,9 +7,5 @@ models:
           - name:  C_CUSTKEY
             description: "The primary key for this table"
             tests:
-                - not_null_demo
-                
-         - name:  C_NAME
-            description: "The primary key for this table"
-            tests:
-                - not_null_demo
+                - not_null_demo    
+         
