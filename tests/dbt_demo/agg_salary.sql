@@ -1,1 +1,1 @@
-select * from {{ref('emp')}}
+select * from {{ref('departments')}}
