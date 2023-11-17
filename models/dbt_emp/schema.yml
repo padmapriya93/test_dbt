@@ -1,7 +1,7 @@
 version: 2
  
 models:
-    - name: dbt_emp
+    - name: emp
       description: "A starter dbt model"
       columns:
           - name:  employee_id
