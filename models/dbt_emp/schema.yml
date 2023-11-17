@@ -1,0 +1,18 @@
+version: 2
+ 
+models:
+    - name: dbt_emp
+      description: "A starter dbt model"
+      columns:
+          - name:  employee_id
+            description: "The primary key for this table"
+            tests:
+                - not_null_demo
+                - unique_records
+               
+                
+          - name:  department_id
+            description: "The primary key for this table"
+            tests:
+                - not_null_demo
+                - unique_records
